@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// Define a structure to store student information
+// Define a structure to store student information 
 struct Student {
     string Id;     // Registration ID
     string fName;   // First name
@@ -37,7 +37,7 @@ void newStudentRegistration() {
     cin >> s.classes;
     cout << "Enter Mobile Number: ";
     cin >> s.number;
-
+ 
     // Write student information to the file
     file << s.Id << " " << s.fName << " " << s.lName << " " << s.classes << " " << s.number << endl;
     cout << "Successfully Added" << endl;
