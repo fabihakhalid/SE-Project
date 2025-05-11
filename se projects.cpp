@@ -9,7 +9,7 @@ using namespace std;
 // Define a structure to store student information 
 struct Student {
     string Id;     // Registration ID
-    string fName;   // First name
+    string fName;   // First name 
     string lName;   // Last name
     string classes; // Class information
     string number;  // Mobile number
@@ -54,7 +54,8 @@ void updateStudentInformation() {
     ifstream infile("studentInfo.txt");
     ofstream tempfile("tempInfo.txt");
     if (!infile.is_open() || !tempfile.is_open()) {
-        cout << "Error: Unable to open files!" << endl;
+        cout << "Error: Unable to open files!" << endl; 
+        
         return;
     }
 
