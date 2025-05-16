@@ -5,7 +5,7 @@
 #include <iomanip>
 
 using namespace std;
-
+                   
 // Define a structure to store student information 
 struct Student {
     string Id;     // Registration ID
